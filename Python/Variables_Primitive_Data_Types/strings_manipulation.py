@@ -63,14 +63,14 @@ python = "python3"
 # new_string = my_string.replace("python","Java")
 # print(new_string)
 #****strip**
-text = "  python  "
-print(text)
-new_text = text.strip()
-print(new_text)
+# text = "  python  "
+# print(text)
+# new_text = text.strip()
+# print(new_text)
 
     #old way of formatting strings
-string = "John"
-age = 23
-height = 1.6
+# string = "John"
+# age = 23
+# height = 1.6
 # print("Hello {} you are {} years old and {} tall" .format(string,age,height))
 # print(f"HELLO,{string.upper()} i am {age +1} and {height}tall")

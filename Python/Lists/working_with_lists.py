@@ -15,10 +15,10 @@ africode_community = students + teachers
 #combined list
 # print(africode_community)
 #*******remove elements
-students.remove('ben')
+# students.remove('ben')
 # print(students)
-students.pop()
+# students.pop()
 # print(students)
 # del students
 
-students.clear()
+# students.clear()

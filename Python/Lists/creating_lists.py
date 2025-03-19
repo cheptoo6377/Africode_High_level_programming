@@ -18,4 +18,4 @@ pattern = ['x']* 1000
 number = [x for x in range(1,11)]
 # print(number)
 square = [i**2 for i in range(1,11)]
-print(square)
+# print(square)
