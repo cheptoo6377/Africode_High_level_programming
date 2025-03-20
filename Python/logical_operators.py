@@ -9,4 +9,4 @@ is_present = True
 #not
 #true when the operand is false
 # print(not is_student)
-print(not is_present)
+# print(not is_present)

@@ -9,7 +9,7 @@ lst3 = lst
 x = 10
 y = 10
 z = 10
-print(id(x))
+# rint(id(x))p
 # print(id(z))
 
 # print(id(x))
