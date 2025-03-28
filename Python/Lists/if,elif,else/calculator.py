@@ -13,18 +13,18 @@ def calculator(operation):
             return "Error! Division by zero."
         return n / m
 
-operation = input( )
-calculator(operation)
+operation = ( )
+
+calculation=calculator(operation)
 
 n = int(input('enter a number'))#input  a number of choice
 m = int(input('enter a number'))# input a number of choice
-operation = input('+' )
+
 result =[ n + m] 
 print(f"the results of adding {n} {m} is {result}")
-operation = input('-' )
+
 result =[ n - m]
 print(f"the results of subtracting {n} {m} is {result}")
-operation = input('*' )
 result =[ n * m]
 print(f"the results of multiplying {n} {m} is {result}")
 if operation == '+':#addition
@@ -43,5 +43,5 @@ elif operation == '/':#division
          print(f"Result: {n} / {m} = {(n,m)}")
 else:
         print('invalid operation')
-        print()  # Add empty line for better 
+        print(calculation)  # Add empty line for better 
 
