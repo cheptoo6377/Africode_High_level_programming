@@ -38,7 +38,7 @@ elif operation == '-':#subtraction
         result = n - m
         print(f"Result: {n} - {m} = {(n, m)}")
 elif operation == '*':#multiplication
-         print(f"Result: {n} * {m} = {multiply(n, m)}")
+         print(f"Result: {n} * {m} = {(n, m)}")
 elif operation == '/':#division
          print(f"Result: {n} / {m} = {(n,m)}")
 else:

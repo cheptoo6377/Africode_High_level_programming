@@ -17,8 +17,8 @@
 # def student_info(**info):
 #     print(info)
 # student_info(name = "rop",age = 10,course = "python",status = "active")
-def courses(*args):
-    print(args)
-courses("html","bootstrap","flask")
-coursesz = list(courses)
-print(coursesz)
+# def courses(*args):
+#     print(args)
+    
+#     courses("html","bootstrap","flask")
+

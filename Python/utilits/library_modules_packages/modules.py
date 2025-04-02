@@ -14,7 +14,7 @@ def calculator(operation ):
             return "Error! Division by zero."
         return n / m
 
-    # operation = input("Enter operation (+, -, *, /): ")
+    operation = input("Enter operation (+, -, *, /): ")
 
     n = int(input('Enter a number: '))
     m = int(input('Enter another number: '))
