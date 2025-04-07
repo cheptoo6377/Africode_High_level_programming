@@ -14,6 +14,7 @@ class car(vehicle):
         self.fuel_type = fuel_type
     def get_fuel_type(self):
         return self.fuel_type
+print()
 car1 = car("honda","mazda",2000,"diesel")
 print(car1.get_info())
 

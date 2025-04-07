@@ -22,7 +22,9 @@ class BankAccount:
     def get_balance(self):
         return self.balance
     def verify_pin(self,attempted_pin):
-         return self.attempted_pin 
+         return self ._pin == attempted_pin
+    def change_pin(self,new_pin):
+        return self._pin == new_pin
         
 account = BankAccount(1000,"Dorothy")
 # print(account.owner)

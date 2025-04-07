@@ -1,4 +1,4 @@
-from model import vehicle
+from oop.inheritance.models import vehicle
 class vehicle:
     def __init__(self,model,make,year):
         self.model = model
