@@ -30,8 +30,17 @@
 # file not found error
 #indexerror
 #logical error
-def sum(a,b):
-    return a/b
-results = sum(10,3)
-print(results)
-
+# def sum(a,b):
+#     return a/b
+# results = sum(10,3)
+# print(results)
+#handling logical errors
+try:
+    number = int(input("enter a number"))
+    results = 10/number
+except Exception as e:
+    print(f"error:{e}")
+else:
+    print(results)
+finally:
+    print("thanks for using our program")
